@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+  background:linear-gradient(to bottom, #fdebd0, #1d8348 );
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+}
+
+.brand_name{
+    font-family: cursive;
+    text-align: center;
+    text-decoration:underline;
+    color: rgb(192, 233, 206);
+}
+
+.navbar {
+  background-color: rgb(65, 93, 58);
+  color: white;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.navbar input {
+  flex: 1;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 180px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  background-color: rgb(223, 223, 168);
+}
+
+.product-card button {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.product-image{
+    border-radius:2cm;
+    padding: 10px, 5px, 10px, 5px;
+}
